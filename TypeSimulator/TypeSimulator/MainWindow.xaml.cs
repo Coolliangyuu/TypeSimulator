@@ -41,7 +41,7 @@ namespace TypeSimulator
                 _settings = new TypeSimulator.Models.Settings
                 {
                     TypingSpeed = 150,
-                    EnableRandomDelay = true,
+                    EnableRandomDelay = false,
                     MappingEnabled = false
                 };
 
@@ -112,14 +112,14 @@ namespace TypeSimulator
             {
                 _logService.Log("正在注册全局快捷键...");
 
-                string typingShortcut = "Ctrl+Alt+T";
+                string typingShortcut = "F8";
                 string pauseMappingShortcut = "F10";  // 暂停/恢复映射
                 string disableMappingShortcut = "F11"; // 禁用映射
-                string resetShortcut = "F12";         // 重置应用
+                string resetShortcut = "F9";         // 重置应用
 
                 // 保留打字切换快捷键
-                bool typingHotkey = _hotkeyManager.RegisterHotKey(ModifierKeys.Control | ModifierKeys.Alt,
-                    System.Windows.Forms.Keys.T, ToggleTyping);
+                bool typingHotkey = _hotkeyManager.RegisterHotKey(ModifierKeys.None,
+                    System.Windows.Forms.Keys.F8, ToggleTyping);
 
                 // F10键：暂停/恢复映射
                 bool pauseMappingHotkey = _hotkeyManager.RegisterHotKey(ModifierKeys.None,
@@ -141,9 +141,9 @@ namespace TypeSimulator
                 bool disableMappingHotkey = _hotkeyManager.RegisterHotKey(ModifierKeys.None,
                     System.Windows.Forms.Keys.F11, DisableMapping);
 
-                // F12键：重置应用
+                // F9键：重置应用
                 bool resetHotkey = _hotkeyManager.RegisterHotKey(ModifierKeys.None,
-                    System.Windows.Forms.Keys.F12, ResetApplication);
+                    System.Windows.Forms.Keys.F9, ResetApplication);
 
                 // 如果不成功，尝试使用Ctrl+F12
                 if (!resetHotkey)

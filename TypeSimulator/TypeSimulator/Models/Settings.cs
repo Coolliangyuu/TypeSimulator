@@ -24,7 +24,7 @@ namespace TypeSimulator.Models
         {
             // 设置默认值
             TypingSpeed = 150;
-            EnableRandomDelay = true;
+            EnableRandomDelay = false;
             MappingEnabled = false;
         }
 

@@ -16,3 +16,14 @@ D:\MVSrepos\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator.exe.manifest
 D:\MVSrepos\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator.application
 D:\MVSrepos\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator.exe
 D:\MVSrepos\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator.pdb
+C:\Users\Admin\下载\TypeSimulator-main\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator.csproj.AssemblyReference.cache
+C:\Users\Admin\下载\TypeSimulator-main\TypeSimulator\TypeSimulator\obj\Release\MainWindow.baml
+C:\Users\Admin\下载\TypeSimulator-main\TypeSimulator\TypeSimulator\obj\Release\MainWindow.g.cs
+C:\Users\Admin\下载\TypeSimulator-main\TypeSimulator\TypeSimulator\obj\Release\App.g.cs
+C:\Users\Admin\下载\TypeSimulator-main\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator_MarkupCompile.cache
+C:\Users\Admin\下载\TypeSimulator-main\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator.g.resources
+C:\Users\Admin\下载\TypeSimulator-main\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator.Properties.Resources.resources
+C:\Users\Admin\下载\TypeSimulator-main\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator.csproj.GenerateResource.cache
+C:\Users\Admin\下载\TypeSimulator-main\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Admin\下载\TypeSimulator-main\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator.exe
+C:\Users\Admin\下载\TypeSimulator-main\TypeSimulator\TypeSimulator\obj\Release\TypeSimulator.pdb

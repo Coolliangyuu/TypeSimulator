@@ -78,15 +78,15 @@
 
                         <TextBlock Grid.Row="0" Grid.Column="0" Text="打字速度:" VerticalAlignment="Center"/>
                         <Slider Grid.Row="0" Grid.Column="1" x:Name="SpeedSlider" 
-                                Minimum="50" Maximum="400" Value="150"
-                                TickFrequency="50" IsSnapToTickEnabled="True" 
+                                Minimum="4000" Maximum="40000" Value="4000"
+                                TickFrequency="4000" IsSnapToTickEnabled="True" 
                                 ValueChanged="SpeedSlider_ValueChanged"/>
                         <TextBlock Grid.Row="0" Grid.Column="2" x:Name="SpeedValueText" 
-                                   Text="150 CPM" Width="60" TextAlignment="Right"/>
+                                   Text="4000 CPM" Width="60" TextAlignment="Right"/>
 
                         <TextBlock Grid.Row="1" Grid.Column="0" Text="随机延迟:" VerticalAlignment="Center" Margin="0,10,0,0"/>
                         <CheckBox Grid.Row="1" Grid.Column="1" x:Name="RandomDelayCheckBox" 
-                                  Content="启用随机打字延迟" IsChecked="True" Margin="0,10,0,0"/>
+                                  Content="启用随机打字延迟" IsChecked="False" Margin="0,10,0,0"/>
 
                         <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" 
                                     Orientation="Horizontal" Margin="0,10,0,0">
@@ -116,7 +116,7 @@
                         <!-- 添加这段代码 -->
                         <TextBlock Grid.Row="1" Text="使用顺序循环映射模式：按照文本顺序依次输出每个字符" 
                             TextWrapping="Wrap" Margin="0,5,0,5"/>
-                        
+
                     </Grid>
                 </GroupBox>
 
@@ -202,7 +202,7 @@
             Padding="15"
             Background="White"
             x:Name="ShortcutInfoPanel"
-            Visibility="Collapsed"> 
+            Visibility="Collapsed">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -224,6 +224,7 @@
                     Padding="20,5" Click="CloseShortcutInfo_Click"/>
             </Grid>
         </Border>
+        <TextBlock TextWrapping="Wrap" Margin="340,8,0,8" HorizontalAlignment="Left"><Run Text="源码来自：https://github.com/YinChingZ/TypeSimulator"/><LineBreak/><Run Language="zh-cn" Text="由Github@Coolliangyuu未授权修改，侵权请通过Github主页联系"/></TextBlock>
 
     </Grid>
 </Window>
